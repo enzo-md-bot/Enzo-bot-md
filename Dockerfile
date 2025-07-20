@@ -2,7 +2,7 @@ FROM node:20-alpine
 
 RUN apk add --no-cache git ffmpeg bash
 
-RUN git clone https://github.com/enzo-md-bot/Enzo-session- /root/bot/
+RUN git clone https://github.com/https://github.com/enzo-md-bot/Enzo-bot-md /root/bot/
 
 WORKDIR /root/bot/
 
